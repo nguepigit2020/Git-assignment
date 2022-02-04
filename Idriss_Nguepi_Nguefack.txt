@@ -1,0 +1,16 @@
+  257  mkdir AMMI-first
+  258  mv AMMI-first AMMI-git
+  259  cd AMMI-git
+  260  ls
+  261  nano identity.txt
+  262  git init -b main
+  263  git status
+  264  git config --global user.name "nguepigit2020"
+  265  git config --global user.email "idrissnguepi@yahoo.fr"
+  266  git add .
+  267  git status
+  268  git commit -m "my commit"
+  269  git remote add origin https://github.com/nguepigit2020/Git-assignment.git
+  270  git remote -v
+  271  git push -u origin main
+  272  git status
